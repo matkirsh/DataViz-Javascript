@@ -1,0 +1,35 @@
+outcome_type,animal_type,animal_id
+Adoption,Bird,114
+Adoption,Cat,12732
+Adoption,Dog,20052
+Adoption,Livestock,2
+Adoption,Other,212
+Died,Bird,4
+Died,Cat,403
+Died,Dog,138
+Died,Other,135
+Disposal,Bird,22
+Disposal,Cat,16
+Disposal,Dog,17
+Disposal,Other,252
+Euthanasia,Bird,85
+Euthanasia,Cat,1453
+Euthanasia,Dog,1504
+Euthanasia,Other,3038
+Missing,Bird,1
+Missing,Cat,28
+Missing,Dog,17
+Relocate,Bird,7
+Relocate,Other,9
+Return to Owner,Bird,9
+Return to Owner,Cat,1431
+Return to Owner,Dog,12875
+Return to Owner,Livestock,1
+Return to Owner,Other,38
+Rto-Adopt,Cat,33
+Rto-Adopt,Dog,117
+Transfer,Bird,92
+Transfer,Cat,13323
+Transfer,Dog,9518
+Transfer,Livestock,6
+Transfer,Other,560
