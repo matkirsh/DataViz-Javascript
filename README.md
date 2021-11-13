@@ -9,4 +9,4 @@ Tous les fichiers qui contiennent les données sous format csv, sont dans le dos
 
 Tous les codes en HTLM, JavaScript, d3.js etc. sont dans le dossier "Code d3.js".
 
-Le dossier "Python Preprocessing" contient le notebook python pour extraire, créer, manipuler les données du dataset initial. 
+Le dossier "Python preprocessing" contient le notebook python pour extraire, créer, manipuler les données du dataset initial. 
