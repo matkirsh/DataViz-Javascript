@@ -6,4 +6,4 @@ Tous les fichiers qui contiennent les données sous format csv, sont dans le dos
 
 Tous les codes en HTLM, JavaScript, d3.js etc. sont dans le dossier "Code d3.js".
 
-Le dossier "DataViz Preprocessing" contient le notebook python pour extraire, créer, manipuler les données du dataset initial. Afin de se faciliter leur utilisation à l'aide de d3.js.
+Le fichier "DataViz Preprocessing.ipynb" contient le notebook python pour extraire, créer, manipuler les données du dataset initial. Afin de se faciliter leur utilisation à l'aide de d3.js.
