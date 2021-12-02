@@ -5,15 +5,83 @@
   <meta charset="utf-8">
   <!-- Load d3.js -->
   <script src="https://d3js.org/d3.v4.js"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>
-    Welcome
+    INTRODUCTION // ON FAIT TOUT SUR UNE PAGE
+
+
   </h1>
+
   <!-- Create a div where the graph will take place -->
   <div id="my_dataviz"></div>
+
+  <!-- GRAPHE 1 : SpiderChart -->
   <p>
-    Bienvenue sur mon site
+    <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Radar chart</title>
+      <script src="https://d3js.org/d3.v3.min.js"></script>
+  	<script src="SpiderChart.js"></script>
+  	<style>
+  		body {
+  		  overflow: hidden;
+  		  margin: 0;
+  		  font-size: 14px;
+  		  font-family: "Helvetica Neue", Helvetica;
+  		}
+
+  		#chart {
+  		  position: absolute;
+  		  top: 50px;
+  		  left: 100px;
+  		}
+  	</style>
+    </head>
+    <body>
+      <div id="dataviz_legend">
+  	  <div id="dataviz_chart"></div>
+      </div>
+
+      <script src="SpiderChartLegend.js"></script>
+
+    </body>
   </p>
+
+
+  <!-- GRAPHE 2: BubbleChart -->
+  <p>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+    <!-- Create a div where the graph will take place -->
+    <div id="dataviz_bubblechart"></div>
+
+    <!-- A bit of CSS: change stroke color of circle on hover (white -> black) -->
+    <style>
+    .bubbles {
+      stroke-width: 1px;
+      stroke: black;
+      opacity: .8
+    }
+    .bubbles:hover {
+      stroke: black;
+    }
+    </style>
+    <script src="BubbleChart.js"></script>
+  </p>
+
+  <!-- GRAPHE 3: MapChart -->
+  <p>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+    <!-- Create an element where the map will take place -->
+    <svg id="my_dataviz" width="800" height="450"></svg>
+    <script src="MapChart.js"></script>
+  </p>
+
+
 </body>
 </html>
