@@ -15,7 +15,7 @@ var RadarChart = {
 	 TranslateY: 30,
 	 ExtraWidthX: 100,
 	 ExtraWidthY: 100,
-	 color: d3.scale.category10()
+	 color: d3.scaleOrdinal(d3.schemeCategory10),
 	};
 	
 	if('undefined' !== typeof options){
@@ -30,15 +30,14 @@ var RadarChart = {
 	var total = allAxis.length;
 	var radius = cfg.factor*Math.min(cfg.w/2, cfg.h/2);
 	var Format = d3.format('%');
-	d3.select(id).select("svg").remove();
 	
-	var g = d3.select(id)
-			.append("svg")
-			.attr("width", cfg.w+cfg.ExtraWidthX)
-			.attr("height", cfg.h+cfg.ExtraWidthY)
-			.append("g")
-			.attr("transform", "translate(" + cfg.TranslateX + "," + cfg.TranslateY + ")");
-			;
+	var g = d3.select("#dataviz_chart")
+		.append("svg")
+		.attr("width", cfg.w+cfg.ExtraWidthX)
+		.attr("height", cfg.h+cfg.ExtraWidthY)
+		.append("g")
+		.attr("transform", "translate(" + cfg.TranslateX + "," + cfg.TranslateY + ")");
+		;
 
 	var tooltip;
 	
@@ -122,7 +121,7 @@ var RadarChart = {
 					 .append("polygon")
 					 .attr("class", "radar-chart-serie"+series)
 					 .style("stroke-width", "2px")
-					 .style("stroke", cfg.color(series))
+					 //.style("stroke", cfg.color(series))
 					 .attr("points",function(d) {
 						 var str="";
 						 for(var pti=0;pti<d.length;pti++){

@@ -1,7 +1,7 @@
 var w = 500,
 	h = 500;
 
-var colorscale = d3.scale.category10();
+//svar colorscale = d3.scale.category10();
 
 //Legend titles
 var LegendOptions = ['Africa','Americas','Asia','Europe','Oceania'];
@@ -49,7 +49,6 @@ RadarChart.draw("#dataviz_chart", d, mycfg);
 ////////////////////////////////////////////
 
 var svg = d3.select('#dataviz_legend')
-	.selectAll('svg')
 	.append('svg')
 	.attr("width", w+300)
 	.attr("height", h)

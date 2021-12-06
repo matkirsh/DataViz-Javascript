@@ -1,5 +1,5 @@
 // The svg
-var svg = d3.select("svg"),
+var svg = d3.select("#MapChart").append("svg"),
   width = svg.attr("width"),
   height = svg.attr("height");
 
@@ -16,7 +16,7 @@ var colorScale = d3.scaleThreshold()
   .range(d3.schemeBlues[9]);
 
 // Add tooltip
-var tooltip = d3.select("body").append("div")
+var tooltip = d3.select("#MapChart").append("div")
 	.attr("class", "tooltip")
 	.style("opacity", 0);
 
