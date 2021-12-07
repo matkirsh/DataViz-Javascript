@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Projet Data Visualisation : </title>
+  <!-- 
+  <meta charset="utf-8">
+  -->
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+  <!-- Load d3.js -->
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v2.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.js"></script>
+
+
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+      overflow: hidden;
+      margin: 0;
+      font-size: 14px;
+      font-family: "Helvetica Neue", Helvetica;
+    }
+
+    #chart {
+      position: absolute;
+      top: 50px;
+      left: 100px;
+    }
+
+    .bubbles {
+      stroke-width: 1px;
+      stroke: black;
+      opacity: .8
+    }
+    .bubbles:hover {
+      stroke: black;
+    }
+  </style>
+</head>
+
+
+<body>
+  <h1>
+  TITRE
+
+  </h1>
+  <h2>
+    rgffffffffffffffffffffffffffffffffffffffffff <br>
+    fffffffffffffffffffffffffffffffffffffffffffffff <br>
+    fffffffffffffffffffffffffffffffffffffffffffffffff
+  </h2>
+
+  <h3>
+    GRAPHIQUE 1
+    
+  </h3>
+
+  <!-- GRAPHE 1 : SpiderChart -->
+  <div>
+      <div id="dataviz_legend">
+  	  <div id="dataviz_chart">
+      </div>
+  </div>
+
+  <!-- GRAPHE 2: BubbleChart -->
+  <div>
+    <!-- Create a div where the graph will take place -->
+    <div id="dataviz_bubblechart"></div>
+  </div>
+
+  <!-- GRAPHE 3: MapChart -->
+  <div>
+    <!-- Create an element where the map will take place -->
+    <div id="MapChart" ></div> <!--width="800" height="450"-->
+  </div>
+
+
+  <script src="MapChart.js"></script>
+  <script src="BubbleChart.js"></script>
+  <script src="SpiderChart.js"></script>
+  <script src="SpiderChartLegend.js"></script>
+
+
+</body>
+</html>
