@@ -13,13 +13,13 @@
 </head>
 
 <body onload="new Accordian('basic-accordian',5,'header_highlight');">
-  <div id="logo"><h1>Sujet Dataset</h1></div>
+  <div id="logo"><h1>World Countries</h1></div>
   <div id="basic-accordian" >
     <div id="test-header" class="accordion_headings header_highlight">Introduction</div>
     <div id="test-content">
       <div class="accordion_child">
         <h1>Choix de la source et étude réalisée : </h1>
-        <p>Nous avons décidé de choisir un dataset quelque peu classique pour cette étude, puisque nous avons pris sur kaggle.com un dataset nous communiquant des indicateurs sur les différents pays du monde. Néanmoins ce dataset nous offre une grande possibilité de graphique, et concentre de nombreuses informations pertinentes et comparables. </p>
+        <p>Nous avons décidé de choisir un dataset quelque peu classique pour cette étude, puisque nous avons pris sur kaggle.com un dataset nous communiquant des indicateurs sur les différents pays du monde. Néanmoins ce dataset nous offre une grande possibilité de graphiques et concentre de nombreuses informations pertinentes et comparables. </p>
         <p>Nous nous sommes principalement attardés sur les variables mettant en valeur la taille des populations, le PIB, le taux d’alphabétisation, la présence des secteurs du service, de l’agriculture et l’industrie dans chaque pays. Ainsi que le nombre de téléphone pour 1000 habitant.</p>
         <p> <a href="https://github.com/matkirsh/DataViz-Javascript">Lien vers notre github </a> <br>
         <a href="https://raw.githubusercontent.com/matkirsh/DataViz-Javascript/main/CSV/WordCountriesVF.csv">Lien vers notre dataset </a> <br></p>
@@ -31,12 +31,12 @@
         </ul>
         <h2>Liste des visualisations réalisées</h2>
         <ul>
-          <li>Titre graphe 1 : Analyse du PIB et du taux d’alphabétisations par pays</li>
-          <li>Titre graphe 2 : Analyse de la présence des secteurs (industrie, service, agriculture) par continent</li>
-          <li>Titre graphe 3 : Analyse du nombre de téléphone pour 1000 habitant par pays </li>
+          <li>Bubble Chart: Analyse du PIB et du taux d’alphabétisations par pays</li>
+          <li>Spider Chart : Analyse de la présence des secteurs (industrie, service, agriculture) par continent</li>
+          <li>Map Chart : Analyse du nombre de téléphone pour 1000 habitant par pays </li>
         </ul>
         <p> Un travail préalable a dû être réalisé sur les données, car il y avait des données manques pour certains pays, de plus il nous fallait ajouter le code ISO des pays, afin de faire matcher chaque pays présent dans notre dataset, avec les coordonnées gps des pays. Nous avons trouvé ces données dans un autre CVS, sur un github public. </p>
-        <p> Pour réaliser ce travail, nous nous sommes servis du langage de programmation Python, afin d’enlever les valeurs manquantes, de faire une analyse rapide de notre dataset dans le but, d’avoir une meilleur idée des graphiques à utiliser. </p>
+        <p> Pour réaliser ce travail, nous nous sommes servis du langage de programmation Python, afin d’enlever les valeurs manquantes, de faire une analyse rapide de notre dataset dans le but d’avoir une meilleur idée des graphiques à utiliser. </p>
       </div>
     </div>
 
@@ -46,7 +46,7 @@
         <div id="dataviz_bubblechart"></div>
         <h1> Analyses et commentaires </h1>
         <p>Nous avons souhaité faire une analyse du PIB et du taux d’alphabétisations par pays.
-Pour y parvenir, en plus d’afficher chaque pays dans une bulle, nous avons choisit de mettre en valeur l’appartenance de chaque pays à son continent à l’aide de couleurs. Lorsque que vous passez votre souris sur la légende, celle-ci met en valeur chaque pays du continent et permet de mieux analyser le positionnement de ces pays sur le graphique.
+Pour y parvenir, en plus d’afficher chaque pays dans une bulle, nous avons choisi de mettre en valeur l’appartenance de chaque pays à son continent à l’aide de couleurs. Lorsque que vous passez votre souris sur la légende, celle-ci met en valeur chaque pays du continent et permet de mieux analyser le positionnement de ces pays sur le graphique.
 De plus nous avons choisi de mettre en valeur la population de chaque pays, en modifiant la taille de chaque bulle.
         </p>
         <p> Toutes ces utilisations de forme, couleur et taille nous permettent d’analyser d’autres variables de notre dataset. Car initialement, le graphique nous permet de voir par pays le taux d’alphabétisation et le GDP. Sachant que le GDP, le produit intérieur brut (PIB) en français, est l'indicateur économique qui permet de quantifier la valeur totale de la « production de richesse » annuelle effectuée par les agents économiques (ménages, entreprises, administrations publiques) résidant à l'intérieur d'un territoire. Et que le taux d'alphabétisation correspond au pourcentage des personnes de 15 ans et plus sachant lire et écrire dans une population. </p>
@@ -104,35 +104,28 @@ En observant bien, on remarque le secteur majoritaire pour chaque continent est 
     <div id="test3-content">
       <div class="accordion_child">
         <svg id="my_dataviz"></svg>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc ligula nisl, egestas non, pharetra vel, scelerisque accumsan, lacus. Proin nibh. Aenean dapibus. Quisque facilisis, ligula ut blandit hendrerit, purus neque rhoncus ipsum, sit amet ultrices mauris augue non arcu. Donec et sem nec libero viverra accumsan.</p>
-        <h2>List Examples</h2>
-        <p>This is an unordered list:</p>
-        <ul>
-          <li>Item 1</li>
-          <li>Item 2</li>
-        </ul>
-        <p>This is an ordered list:</p>
-        <ol>
-          <li>Item 1</li>
-          <li>Item 2</li>
-        </ol>
+        <h1>Analyses et commentaires</h1>
+        <p>A l’aide de ce graphique nous pouvons voir le nombre de téléphones pour 1000 habitant par pays. La teinte de couleur permet de visualiser directement le niveau de pénétration de ce moyen de communication dans chaque pays. Plus le bleu est foncé, plus il y a de téléphones pour 1000 habitants. On peut avoir plus d’information sur le pays en passant la souris dessus : le nom du pays ainsi que le nombre exact de téléphone pour 1000 habitants, enfin la couleur du pays ressort par rapport aux pays en arrière-plan qui sont mis en transparence, ce qui permet de ne pas confondre deux teintes de couleur proches. </p>
+        <p>Le passage de sociétés à dominante agricole et industrielle vers des sociétés de services a entrainé une augmentation de la valeur ajoutée produite par les pays qui possèdent de bonnes infrastructures de télécommunication et ayant un fort taux de pénétration des outils qui permettent de les exploiter. Ainsi le taux d’adoption du téléphone, sans être un indicateur infaillible permet d’avoir une idée du niveau de développement d’un pays. Il permet aussi d’évaluer, a niveau de développement équivalent, la qualité des infrastructures et les spécificités locales de chaque pays dans ce secteur. Certaines données manquantes peuvent être le fruit d’un manque de données ou d’une volonté plus ou moins politiques de ne pas communiquer sur ce point. En effet, l’absence d’information sur la Russie peut questionner. Étant donné que le pays est très vaste et son climat assez rude, la mise en place et le maintien d’infrastructures de qualité est beaucoup plus couteuse (à niveau équivalent) que dans un pays moins vaste (et avec une densité de population plus forte) qui aurait un climat plus tempéré.
+        </p>
+        <p>Néanmoins ce graphique a ses limites, en effets, il ne permet pas d’avoir des données géographiques précises qui pourraient permettre de voir au sein des pays où sont regroupées les zones avec un forte adoption du téléphone. En effet, cela pourrait permettre d’identifier les zones où il est plus ou moins difficile de faire adopter le téléphone en fonction de la géographie. Enfin, le fait de sommer téléphone fixe et téléphone portable ne permet pas de voir quels sont les pays qui viennent d’adopter ce mode de communication. En effet, dans les pays en développement, le téléphone est quasi exclusivement mobile, tandis que dans les pays développé, le téléphone fixe est encore très présent même s’il tend à disparaître petit à petit.
+        </p>
+        <h2>Détails des variables choisies</h2>
+        <table style="width:100%; border-spacing:0;">
+          <tr><th>Variable</th><th>Type</th><th>Visuelle</th></tr>
+          <tr><td>Country</td><td>Nominal</td><td>Carte du monde</td></tr>
+          <tr><td>Phones</td><td>Quantitative</td><td>Couleur sur la carte</td></tr>
+        </table>
       </div>
     </div>
     <script src="MapChart.js"></script>
 
-    <div id="test4-header" class="accordion_headings">Contact Us</div>
+    <div id="test4-header" class="accordion_headings">Conclusion</div>
     <div id="test4-content">
       <div class="accordion_child">
-        <p>Below is an example of how a contact form might look with this template:</p>
-        <form action="#" method="post">
-          <div class="form_settings">
-            <p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
-            <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
-            <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
-            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>
-          </div>
-        </form>
-        <p><br /><br />NOTE: A contact form such as this would require some way of emailing the input to an email address.</p>
+        <p>Pour conclure, ce projet nous a permis de mettre en lumière différentes variables de notre dataset. En utilisant des graphiques structurés, et en jouant sur les couleurs, les formes, la taille, etc. , nous avons pu comparer les corrélations entre des variables et en tirer des conclusions sur plusieurs axes. </p>
+        <p>Cependant nous n'avons pas pu utiliser toutes les variables de notre dataset, car certaines n'avait que peu de sens pour nous. Comme celle du climat, qui est codé par des valeurs allant de 1 à 4. Cela car nous n'avions aucune information sur ce codage. Nous avons donc sélectionné les variables qui nous semblait le plus intéressant à analyse</p>
+        <p>Enfin ce projet nous permis de mettre en application les notions vues en cours de visualisation de l'information, et nous a appris à chercher les meilleurs graphique afin de donner du sens aux données. d3.js est une librairie difficile à utiliser mais extrêmement puissante. Elle nous a donné la possibilité de construire ces graphiques. </p>
       </div>
     </div>
   </div>

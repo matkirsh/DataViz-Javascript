@@ -47,7 +47,7 @@ h5, h6
   padding: 0 0 15px 0;}
 
 h7{
-  
+
 }
 
 a, a:hover
@@ -227,3 +227,12 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+  .bubbles {
+    stroke-width: 1px;
+    stroke: black;
+    opacity: .8
+  }
+  .bubbles:hover {
+    stroke: black;
+  }
