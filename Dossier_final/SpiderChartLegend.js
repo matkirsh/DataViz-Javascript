@@ -1,12 +1,12 @@
 var w = 500,
 	h = 500;
 
-//svar colorscale = d3.scale.category10();
+var colorscale = d3.scale.category10();
 
-//Legend titles
+// Legend titles
 var LegendOptions = ['Africa','Americas','Asia','Europe','Oceania'];
 
-//Data
+// Data
 var d = [
 		  [
 			{axis:"Industry",value:0.28},
@@ -31,7 +31,7 @@ var d = [
 		  ]
 		];
 
-//Options for the Radar chart, other than default
+// Options for the Radar chart
 var mycfg = {
   w: w,
   h: h,
@@ -40,37 +40,38 @@ var mycfg = {
   ExtraWidthX: 300
 }
 
-//Call function to draw the Radar chart
-//Will expect that data is in %'s
+// Call function to draw the Radar chart
+// Data is in %'s
 RadarChart.draw("#dataviz_chart", d, mycfg);
 
-////////////////////////////////////////////
-/////////// Initiate legend ////////////////
-////////////////////////////////////////////
+  //---------------------------//
+  //      Initiate legend      //
+  //---------------------------//
 
 var svg = d3.select('#dataviz_legend')
+	.selectAll('svg')
 	.append('svg')
 	.attr("width", w+300)
 	.attr("height", h)
 
-//Create the title for the legend
+// Create the title for the legend
 var text = svg.append("text")
 	.attr("class", "title")
-	.attr('transform', 'translate(90,0)') 
+	.attr('transform', 'translate(90,0)')
 	.attr("x", w - 70)
 	.attr("y", 10)
 	.attr("font-size", "12px")
 	.attr("fill", "#404040")
 	.text("Continent");
-		
-//Initiate Legend	
+
+// Initiate Legend
 var legend = svg.append("g")
 	.attr("class", "legend")
 	.attr("height", 100)
 	.attr("width", 200)
-	.attr('transform', 'translate(90,20)') 
+	.attr('transform', 'translate(90,20)')
 	;
-	//Create colour squares
+	// Create colour squares
 	legend.selectAll('rect')
 	  .data(LegendOptions)
 	  .enter()
@@ -81,7 +82,7 @@ var legend = svg.append("g")
 	  .attr("height", 10)
 	  .style("fill", function(d, i){ return colorscale(i);})
 	  ;
-	//Create text next to squares
+	// Create text next to squares
 	legend.selectAll('text')
 	  .data(LegendOptions)
 	  .enter()

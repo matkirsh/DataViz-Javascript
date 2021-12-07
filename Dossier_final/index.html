@@ -8,8 +8,8 @@
   <script type="text/javascript" src="style/accordian.pack.js"></script>
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-  <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
 </head>
 
 <body onload="new Accordian('basic-accordian',5,'header_highlight');">
@@ -43,7 +43,7 @@
     <div id="test1-header" class="accordion_headings">Premier graphique</div>
     <div id="test1-content">
       <div class="accordion_child">
-        <div id="dataviz_bubblechart"></div>
+        <iframe src="BubbleChart.html" height="400" width="800" name="demo"> </iframe>
         <h1> Analyses et commentaires </h1>
         <p>Nous avons souhaité faire une analyse du PIB et du taux d’alphabétisations par pays.
 Pour y parvenir, en plus d’afficher chaque pays dans une bulle, nous avons choisi de mettre en valeur l’appartenance de chaque pays à son continent à l’aide de couleurs. Lorsque que vous passez votre souris sur la légende, celle-ci met en valeur chaque pays du continent et permet de mieux analyser le positionnement de ces pays sur le graphique.
@@ -69,13 +69,12 @@ Ici, nous pouvons ajouter des variables comme celle de la taille de la populatio
 On remarque aussi, que aussi que les pays d’Afrique possèdent les plus petits taux d’alphabétisation et les plus faible GDP. Alors que les pays d’Europe, sont à l’opposé, ils possèdent presque tous un taux d’alphabétisation égale à 100 et les GDP les plus élevés. </p>
       </div>
     </div>
-    <script src="BubbleChart.js"></script>
+
 
     <div id="test2-header" class="accordion_headings">Deuxième graphique</div>
     <div id="test2-content">
       <div class="accordion_child">
-    	  <div id="dataviz_chart"></div>
-        <div id="dataviz_legend"></div>
+        <iframe src="SpiderChart.html" height="550" width="800" name="demo"> </iframe>
         <h1>Analyses et commentaires</h1>
         <p>A l’aide de ce graphique, nous avons souhaité mettre en valeur la répartition des de chaque secteurs (industrie, service, agriculture) des continents. </p>
         <p>
@@ -97,13 +96,12 @@ On remarque aussi, que aussi que les pays d’Afrique possèdent les plus petits
 En observant bien, on remarque le secteur majoritaire pour chaque continent est le secteur lié au service. Ce qui correspond avec la dynamique mondial actuelle, tournée vers le digital et la création de valeur de service.  </p>
       </div>
     </div>
-    <script src="SpiderChart.js"></script>
-    <script src="SpiderChartLegend.js"></script>
+
 
     <div id="test3-header" class="accordion_headings">Troisième graphique</div>
     <div id="test3-content">
       <div class="accordion_child">
-        <svg id="my_dataviz"></svg>
+        <iframe src="MapChart.html" height="400" width="800" name="demo"> </iframe>
         <h1>Analyses et commentaires</h1>
         <p>A l’aide de ce graphique nous pouvons voir le nombre de téléphones pour 1000 habitant par pays. La teinte de couleur permet de visualiser directement le niveau de pénétration de ce moyen de communication dans chaque pays. Plus le bleu est foncé, plus il y a de téléphones pour 1000 habitants. On peut avoir plus d’information sur le pays en passant la souris dessus : le nom du pays ainsi que le nombre exact de téléphone pour 1000 habitants, enfin la couleur du pays ressort par rapport aux pays en arrière-plan qui sont mis en transparence, ce qui permet de ne pas confondre deux teintes de couleur proches. </p>
         <p>Le passage de sociétés à dominante agricole et industrielle vers des sociétés de services a entrainé une augmentation de la valeur ajoutée produite par les pays qui possèdent de bonnes infrastructures de télécommunication et ayant un fort taux de pénétration des outils qui permettent de les exploiter. Ainsi le taux d’adoption du téléphone, sans être un indicateur infaillible permet d’avoir une idée du niveau de développement d’un pays. Il permet aussi d’évaluer, a niveau de développement équivalent, la qualité des infrastructures et les spécificités locales de chaque pays dans ce secteur. Certaines données manquantes peuvent être le fruit d’un manque de données ou d’une volonté plus ou moins politiques de ne pas communiquer sur ce point. En effet, l’absence d’information sur la Russie peut questionner. Étant donné que le pays est très vaste et son climat assez rude, la mise en place et le maintien d’infrastructures de qualité est beaucoup plus couteuse (à niveau équivalent) que dans un pays moins vaste (et avec une densité de population plus forte) qui aurait un climat plus tempéré.
@@ -118,7 +116,7 @@ En observant bien, on remarque le secteur majoritaire pour chaque continent est 
         </table>
       </div>
     </div>
-    <script src="MapChart.js"></script>
+
 
     <div id="test4-header" class="accordion_headings">Conclusion</div>
     <div id="test4-content">
@@ -134,3 +132,8 @@ En observant bien, on remarque le secteur majoritaire pour chaque continent est 
   </div>
 </body>
 </html>
+
+<script src="BubbleChart.js"></script>
+<script src="MapChart.js"></script>
+<script src="SpiderChart.js"></script>
+<script src="SpiderChartLegend.js"></script>
