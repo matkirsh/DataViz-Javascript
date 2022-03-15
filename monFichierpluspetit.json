@@ -1,0 +1,834 @@
+{
+    "name": "..",
+    "type": "directory",
+    "children": [
+        {
+            "name": "01_IntroductionVisualisationInformation.pdf",
+            "type": "file"
+        },
+        {
+            "name": ".DS_Store",
+            "type": "file"
+        },
+        {
+            "name": "DataViz-Javascript-main-2",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Dossier_final",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "BoxplotDeath.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BubbleChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChartLegend.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "image_data.jpg",
+                            "type": "file"
+                        },
+                        {
+                            "name": "WordCloud.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SiteInternet.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChart.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChart.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "projetdata.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "style",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "bullet.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "graphic.jpg",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "accordian.pack.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "style.css",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "SpiderChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1 projetdataBubbleChart OK.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "2 projetdataSpiderChartLegend OK.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Boxplot.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "WordCloud.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "READ_ME",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "HTML5WebTemplates.co.uk.url",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "PLEASE READ.txt",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Remove the footer link.URL",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "BoxplotBirth.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BubbleChart.js",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": ".DS_Store",
+                    "type": "file"
+                },
+                {
+                    "name": "DataViz-Javascript-main",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "DataViz Preprocessing.ipynb",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Code d3.js",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "BoxplotDeath.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "BubbleChart.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "SpiderChartLegend.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "styles.css",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "WordCloud.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "MapChart.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "SpiderChart.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "projetdata.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "MapChart 2.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "SpiderChart 2.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "SpiderChart.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "2 projetdataSpiderChartLegend OK 2.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "BubbleChart 2.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "1 projetdataBubbleChart OK.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "2 projetdataSpiderChartLegend OK.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Boxplot.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "BoxplotBirth 2.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "1 projetdataBubbleChart OK 2.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "WordCloud 2.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Boxplot 2.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "MapChart 2.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "projetdata 2.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "WordCloud.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "MapChart.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "styles 2.css",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "SpiderChart 2.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "BoxplotDeath 2.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "WordCloud 2.html",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "BoxplotBirth.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "BubbleChart.js",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "README.md",
+                            "type": "file"
+                        },
+                        {
+                            "name": "CSV",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "WordCountriesVF.csv",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CountriesCode.csv",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "DataViz Preprocessing.ipynb",
+                    "type": "file"
+                },
+                {
+                    "name": "Code d3.js",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "BoxplotDeath.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BubbleChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChartLegend.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "styles.css",
+                            "type": "file"
+                        },
+                        {
+                            "name": "WordCloud.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChart.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChart.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "projetdata.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Boxplot.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "WordCloud.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BoxplotBirth.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BubbleChart.js",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "README.md",
+                    "type": "file"
+                },
+                {
+                    "name": "simple_slide",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "index.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "style",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "bullet.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "graphic.jpg",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "accordian.pack.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "style.css",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "READ_ME",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "HTML5WebTemplates.co.uk.url",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "PLEASE READ.txt",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Remove the footer link.URL",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "CSV",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "WordCountriesVF.csv",
+                            "type": "file"
+                        },
+                        {
+                            "name": "CountriesCode.csv",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Groupes.png",
+            "type": "file"
+        },
+        {
+            "name": "index-Theo.ejs",
+            "type": "file"
+        },
+        {
+            "name": "DataViz-Javascript-main V1",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Projet DataViz Graph.docx",
+                    "type": "file"
+                },
+                {
+                    "name": ".DS_Store",
+                    "type": "file"
+                },
+                {
+                    "name": "DataViz Preprocessing.ipynb",
+                    "type": "file"
+                },
+                {
+                    "name": "Code d3.js",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": ".Rhistory",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BoxplotDeath.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BubbleChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChartLegend.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "styles.css",
+                            "type": "file"
+                        },
+                        {
+                            "name": "WordCloud.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChart.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChart.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "projetdata.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Boxplot.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "WordCloud.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BoxplotBirth.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BubbleChart.js",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "README.md",
+                    "type": "file"
+                },
+                {
+                    "name": "CSV",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "WordCountriesVF.csv",
+                            "type": "file"
+                        },
+                        {
+                            "name": "CountriesCode.csv",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Devoir1",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Les tableaux de Data Viz.docx",
+                    "type": "file"
+                },
+                {
+                    "name": "datas_animaux_excel.xlsx",
+                    "type": "file"
+                },
+                {
+                    "name": "00_Call_21:11.docx",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "tp_final",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "folder_to_json.py",
+                    "type": "file"
+                },
+                {
+                    "name": ".DS_Store",
+                    "type": "file"
+                },
+                {
+                    "name": "monFichier.json",
+                    "type": "file"
+                },
+                {
+                    "name": "monFichierpluspetit.json",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "05_Cours.docx",
+            "type": "file"
+        },
+        {
+            "name": "Rendu_Couleurs_Kirsch_Riaux_Lasry.docx",
+            "type": "file"
+        },
+        {
+            "name": "DataViz-Javascript-main V2",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Projet DataViz Graph.docx",
+                    "type": "file"
+                },
+                {
+                    "name": ".DS_Store",
+                    "type": "file"
+                },
+                {
+                    "name": "bootstrap-4.0.0-dist",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": ".DS_Store",
+                            "type": "file"
+                        },
+                        {
+                            "name": "css",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "bootstrap.min.css",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap-reboot.min.css.map",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.css",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap-grid.css.map",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap-grid.min.css",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.css.map",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.min.css.map",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap-reboot.min.css",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap-reboot.css",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap-grid.css",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap-grid.min.css.map",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap-reboot.css.map",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "js",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "bootstrap.bundle.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.bundle.min.js.map",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.bundle.js.map",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.bundle.min.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.min.js",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.js.map",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "bootstrap.min.js.map",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "DataViz Preprocessing.ipynb",
+                    "type": "file"
+                },
+                {
+                    "name": "Code d3.js",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": ".Rhistory",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BoxplotDeath.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "projetdataMapChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BubbleChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChartLegend.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": ".DS_Store",
+                            "type": "file"
+                        },
+                        {
+                            "name": "projetdataSpiderChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "styles.css",
+                            "type": "file"
+                        },
+                        {
+                            "name": "WordCloud.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChart.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "projetdataIntro.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChart.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChartV2.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChartV2.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SpiderChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1 projetdataBubbleChart OK.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "2 projetdataSpiderChartLegend OK.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Boxplot.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "WordCloud.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "MapChart.html",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BoxplotBirth.js",
+                            "type": "file"
+                        },
+                        {
+                            "name": "BubbleChart.js",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "README.md",
+                    "type": "file"
+                },
+                {
+                    "name": "CSV",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "WordCountriesVF.csv",
+                            "type": "file"
+                        },
+                        {
+                            "name": "CountriesCode.csv",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "02_PerceptionVisualisationInformation.pdf",
+            "type": "file"
+        },
+        {
+            "name": "CoursbasiqueHTML.rtfd",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Screenshot 2021-12-05 at 21.41.01.png",
+                    "type": "file"
+                },
+                {
+                    "name": "TXT.rtf",
+                    "type": "file"
+                }
+            ]
+        }
+    ]
+}
